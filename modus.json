@@ -46,6 +46,13 @@
         }
       }
     },
+    "bash-collection": {
+      "searchMethods": {
+        "default": {
+            "embedder": "defaultEmbedder" 
+        }
+      }
+    },
     "regex-collection": {
       "searchMethods": {
         "default": {

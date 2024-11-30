@@ -3,6 +3,7 @@ export const SECOND_MODEL_NAME = "meta-llama-instruct-3-1-8B";
 export const DEFAULT_EMBEDDING_MODEL_NAME = "minilm";
 export const SECOND_EMBEDDING_MODEL_NAME = "minilm";
 export const NATURAL_LANGUAGE_COLLECTION_NAME = "nlp-collection";
+export const BASH_COMMAND_COLLECTION_NAME = "bash-collection";
 export const REGEX_COLLECTION_NAME = "regex-collection";
 export const GIT_COMMAND_COLLECTION_NAME = "git-collection";
 export const SQL_QUERY_COLLECTION_NAME = "sql-collection";

@@ -1,6 +1,42 @@
 import { collections } from "@hypermode/modus-sdk-as";
 
-// NATURAL LANGUAGE
+// BASH
+@json
+export class NaturalLanguageToBashCommandResult {
+
+  @alias("bashCommand")
+  bashCommand!: string;
+
+
+  @alias("natural-language-collection-mutation-result")
+  naturalLanguageCollectionMutationResult: collections.CollectionMutationResult | null =
+    null;
+
+
+  @alias("bashCommand-collection-mutation-result")
+  bashCommandCollectionMutationResult: collections.CollectionMutationResult | null =
+    null;
+}
+
+
+@json
+export class BashCommandToNaturalLanguageResult {
+
+  @alias("naturalLanguage")
+  naturalLanguage!: string;
+
+
+  @alias("natural-language-collection-mutation-result")
+  naturalLanguageCollectionMutationResult: collections.CollectionMutationResult | null =
+    null;
+
+
+  @alias("regex-collection-mutation-result")
+  bashCommandCollectionMutationResult: collections.CollectionMutationResult | null =
+    null;
+}
+
+// REGEX
 @json
 export class NaturalLanguageToRegexResult {
 

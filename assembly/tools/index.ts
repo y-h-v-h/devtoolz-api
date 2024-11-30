@@ -1,3 +1,4 @@
+export * from "./bash";
 export * from "./regex";
 export * from "./git";
 export * from "./sql";

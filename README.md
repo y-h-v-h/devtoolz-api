@@ -22,13 +22,15 @@
 
 ## Features
 
+- **Bash command to natural language converter**
+- **Natural language to bash command converter**
 - **Regex to natural language converter**
 - **Natural language to regex converter**
 - **Git command to natural language converter**
 - **Natural language to git command converter**
 - **SQL query to natural language converter**
 - **Natural language to SQL query converter**
-- **Vector search with Modus collections**
+- **Semantic similarity search**
 
 ## Running locally
 
@@ -37,8 +39,6 @@
 ```bash
 git clone https://github.com/y-h-v-h/devtoolz-api.git
 ```
-
-- `cd` into the `frontend` directory and install with `npm` or any other package manager
 
 - Install packages with `npm` or any other package manager
 
