@@ -30,7 +30,7 @@
 - **Natural language to git command converter**
 - **SQL query to natural language converter**
 - **Natural language to SQL query converter**
-- **Semantic similarity search**
+- **Natural language similarity search**
 
 ## Running locally
 
